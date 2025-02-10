@@ -1,0 +1,76 @@
+
+
+/* Section Styling */
+.why-choose {
+    text-align: center;
+    padding: 25px 20px;
+    background: #eeeeee;
+}
+
+.why-choose h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: none;
+    padding: 10px;
+    border: 1px solid #111;
+    border-radius: 30px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    width: fit-content;
+    margin: auto;
+}
+
+.tab-button {
+    border: none;
+    background: #111;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab-button.active {
+    background: red;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    margin-top: 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    width: 95%;
+    margin: 22px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Content Layout */
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-container img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.content-container p {
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}

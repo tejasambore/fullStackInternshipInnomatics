@@ -1,0 +1,45 @@
+
+/* Enquire Now Section */
+.enquire-now {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 60px;
+    padding-left: 5%;
+}
+
+/* Enquire Text */
+.enquire-now span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Call Buttons */
+.call-button {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid white;
+    transition: background-color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+.call-button img {
+    width: 14px;
+}
+
+.call-button:hover {
+    background: white;
+    color: red;
+    border: none;
+}

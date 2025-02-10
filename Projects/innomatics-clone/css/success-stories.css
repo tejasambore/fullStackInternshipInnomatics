@@ -1,0 +1,71 @@
+
+/* Success Section */
+.success-section {
+    text-align: center;
+    padding: 30px 20px;
+    background: #f8f8f8;
+}
+
+.success-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Success Container */
+.success-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Success Card */
+.success-card {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 0 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.success-card:hover {
+    /* transform: translateY(-5px); */
+    transform: scale(1.03);
+}
+
+.success-card img {
+    width: 100%;
+    display: block;
+}
+
+.line-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.line {
+    width: 62%;
+    height: 1px;
+    background: #d1d1d1;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+    margin-right: 19%;
+}
+
+.pagination button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+

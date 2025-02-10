@@ -1,0 +1,15 @@
+
+/* Full-Width Image Styling */
+.full-width-image {
+    background-image: url(https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 60vh; /* Full height of viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

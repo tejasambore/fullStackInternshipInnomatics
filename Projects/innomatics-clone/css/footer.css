@@ -1,0 +1,123 @@
+
+
+/* Footer Styles */
+.footer {
+    background: #111;
+    color: white;
+    padding-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+/* Footer About Section */
+.footer-about {
+    width: 35%;
+}
+
+.footer-about .logo {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-about p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* Courses Section */
+.footer-courses {
+    width: 25%;
+}
+
+.footer-courses h3 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.footer-courses ul {
+    list-style: none;
+}
+
+.footer-courses ul li {
+    margin-bottom: 8px;
+}
+
+.footer-courses ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contact Section */
+.footer-contact {
+    width: 35%;
+}
+
+.footer-contact h3 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Floating Register Button */
+.register-now {
+    position: fixed;
+    right: 1%;
+    top: 50%;
+    background: red;
+    padding: 10px 15px;
+    transform: rotate(-90deg);
+    transform-origin: right;
+}
+
+.register-now a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Live Chat Button */
+.live-chat {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}

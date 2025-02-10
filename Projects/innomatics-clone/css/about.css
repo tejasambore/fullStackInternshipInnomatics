@@ -1,0 +1,96 @@
+/* About Section */
+.about-section {
+    padding: 30px 5%;
+    background: #fff;
+}
+
+/* Container */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 50px;
+}
+
+/* Left Side Text */
+.about-text {
+    width: 55%;
+}
+
+.about-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.about-text p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.highlight {
+    font-weight: bold;
+    color: red;
+}
+
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+
+/* View More Button */
+.view-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.view-more-btn:hover {
+    background: darkred;
+}
+
+/* Right Side Features */
+.about-features {
+    width: 45%;
+    text-align: center;
+}
+
+.about-features h2 {
+    font-size: 35px;
+    color: navy;
+    margin-bottom: 3.5rem;
+}
+
+/* Feature Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    border-bottom: 4px solid #ddd;
+    text-align: center;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.feature-box img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.feature-box:hover {
+    /* transform: translateY(-5px); */
+    border-bottom-color: red;
+}
