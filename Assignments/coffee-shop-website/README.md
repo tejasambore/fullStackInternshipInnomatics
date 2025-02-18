@@ -82,11 +82,20 @@ xdg-open index.html  # Linux
 
 Tested on: Chrome, Firefox, Edge, Safari, and Opera.
 
-## Screenshots
-- **Homepage** 
-- **Menu Section**  
-- **Contact Section**  
+## 📷 Screenshots
+### 🔹 Home Page
+![Home Page](./screenshot/HomePage.png)
 
+### 🔹 Menu Listing
+![Menu List](./screenshot/OurMenu.png)
+
+### 🔹 About
+![About](./screenshot/About.png)
+
+### 🔹 Contact Section
+![About](./screenshot/Contact.png)
+
+---
 ## Contributing
 Want to contribute? Follow these steps:
 
@@ -111,9 +120,12 @@ If you find a bug or have a feature request, please open an issue!
 ## License
 This project is licensed under the **MIT License** – feel free to use and modify!
 
-## Contact
-- **Email:** [contact@brewedawakening.com](mailto:contact@brewedawakening.com)  
-- **Website:** [www.brewedawakening.com](http://www.brewedawakening.com)  
-- **Address:** 123 Brewed Awakening St, Coffee City, CO 12345  
+## 👨‍💻 Created By
+**Tejas Govind Ambore**
+- Full Stack Developer Intern at **Innomatics Research Labs**
+- LinkedIn: [Tejas Ambore](https://www.linkedin.com/in/tejasambore)
+- GitHub: [Tejas Ambore](https://github.com/tejasambore)
+
+---
 
 Follow us on Social Media!
