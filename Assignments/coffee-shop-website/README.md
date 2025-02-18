@@ -93,7 +93,7 @@ Tested on: Chrome, Firefox, Edge, Safari, and Opera.
 ![About](./screenshot/About.png)
 
 ### 🔹 Contact Section
-![About](./screenshot/Contact.png)
+![Contact](./screenshot/Contact.png)
 
 ---
 ## Contributing
