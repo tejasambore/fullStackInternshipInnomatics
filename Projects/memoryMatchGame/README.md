@@ -6,7 +6,7 @@ Here’s the **final polished `README.md`** with a **"Created By"** section adde
 
 > A captivating **Memory Match Game** with a futuristic **dark mode UI**, **randomized color themes**, and **smooth animations**—built with **HTML, CSS, and JavaScript**. Test your memory skills across multiple categories before time runs out!  
 
-![Memory Match Game Banner](assets/banner.png)  
+![Memory Match Game Banner](assets/landing.png)  
 
 ---
 
@@ -64,7 +64,7 @@ Here’s the **final polished `README.md`** with a **"Created By"** section adde
 ## 🚀 **Installation & Setup**  
 1️⃣ **Clone this repository**  
 ```sh
-git clone https://github.com/your-username/memory-match-game.git
+git clone https://github.com/tejasambore/memoryMatchGame.git
 ```
 2️⃣ **Navigate into the project folder**  
 ```sh
@@ -95,7 +95,7 @@ This project is **open-source** and available under the **MIT License**.
 ## 👨‍💻 **Created By**  
 🚀 **Tejas Govind Ambore**  ❤️
 🔗 [LinkedIn](https://www.linkedin.com/in/tejas-ambore) 
-🔗 [GitHub](https://github.com/Tejas-Ambore) 
+🔗 [GitHub](https://github.com/tejasambore) 
 🔗 [Portfolio](#)  
 
 ---
