@@ -1,4 +1,3 @@
-Here’s the **final polished `README.md`** with a **"Created By"** section added at the end.  
 
 ---
 
@@ -64,11 +63,11 @@ Here’s the **final polished `README.md`** with a **"Created By"** section adde
 ## 🚀 **Installation & Setup**  
 1️⃣ **Clone this repository**  
 ```sh
-git clone https://github.com/tejasambore/memoryMatchGame.git
+git clone https://github.com/tejasambore/fullStackInternshipInnomatics.git
 ```
 2️⃣ **Navigate into the project folder**  
 ```sh
-cd memory-match-game
+cd Project/memoryMatchGame
 ```
 3️⃣ **Open `index.html` in your browser**  
 ```sh
@@ -93,9 +92,7 @@ This project is **open-source** and available under the **MIT License**.
 ---
 
 ## 👨‍💻 **Created By**  
-🚀 **Tejas Govind Ambore**  ❤️
-🔗 [LinkedIn](https://www.linkedin.com/in/tejas-ambore) 
-🔗 [GitHub](https://github.com/tejasambore) 
-🔗 [Portfolio](#)  
+🚀 **Tejas Govind Ambore**  ❤️<br /> 
+🔗 [LinkedIn](https://www.linkedin.com/in/tejasambore) | [GitHub](https://github.com/tejasambore) | [Portfolio](#)  
 
 ---
