@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing Page */
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3rem;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.category-btn,  
+#restart-btn, 
+#back-home {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #4dc9e6, #210cae);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category-btn:hover,  
+#restart-btn:hover, 
+#back-home:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 10px rgba(115, 246, 250, 0.8);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Game Container */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-top: 15px;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+/* Game Board */
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 8px rgba(244, 227, 169, 0.8);
+}
+
+/* Flip Animation */
+.flipped {
+    transform: rotateY(180deg);
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+}
+
+/* Matched Cards */
+.matched {
+    background: #209c98;
+    pointer-events: none;
+}
+
+/* Timer and Score */
+#timer, #score {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
